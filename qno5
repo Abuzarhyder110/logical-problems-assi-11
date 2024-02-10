@@ -1,0 +1,11 @@
+#implement a program that takes a user's input of three numbers and prints out the maximum and minimum among them
+
+def find_max_min(num1, num2, num3):
+    maximum = max(num1, num2, num3)
+    minimum = min(num1 , num2, num3)
+    print("Maximum number:", maximum)
+    print("Manimun number:", minimum)
+
+num1 = float(input("Enter the first number"))
+num2 = float(input(:Enter the second number"))
+num3 = float(input("Enter the third number"))
