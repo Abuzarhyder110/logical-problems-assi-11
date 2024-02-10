@@ -1,0 +1,15 @@
+#create a program that ask the user to enter their ages and prints out whether they are child, teenager, adult, or senior citizens.
+
+def classify_age(age):
+    if age < 0:
+        print("Invalid age entered")
+    elif age < 13:
+        print("Child")
+    elif age < 20:
+        print("Teenager")
+    elif age < 65:
+        print("Adult")
+    else:
+        print("Senior citizen")
+
+age = int(input("Please enter your age:"))
